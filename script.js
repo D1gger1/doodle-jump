@@ -16,5 +16,18 @@ let doodler = {
     img: null,
     x: doodlerX,
     y: doodlerY,
-    width:
+    width: doodlerWidth,
+    height: doodlerHeight
 }
+
+//physics
+let velocityX = 0;
+let velocityY = 0;
+let initialVelovityY = -5;
+let gravity = 0.18;
+
+//platforms
+let platformArray = [];
+let platformWidth = 60;
+let platformHeight = 18;
+let platformImg;
